@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(1,1,1,0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.color {
+    color: #9770ff;
+    text-align: justify;
+}
+
+#title {
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+#text-title {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+#content img{
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 10rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.row input {
+    width: 15rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #777272;
+    color: #fff;
+}
+
+.row form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.row form label {
+    margin-right: 1rem;
+    font-weight: 400;
+    font-family: Roboto;
+}
+
+.row form button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#id {
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#id:focus{
+    outline: none;
+}
+
+#discord {
+    margin-right: 1rem;
+    background-color: #70c1ff;
+    color: #fff;
+}
+
+#confirm {
+    margin-left: 1rem;
+    background-color: #9770ff;
+    color: #fff;
+}
